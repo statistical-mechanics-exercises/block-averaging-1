@@ -10,6 +10,6 @@ $$
 \langle E\rangle=\frac{1}{N}\sum_{t=0}^NE_t
 $$
 
-In this expression ![](https://render.githubusercontent.com/render/math?math=N) is the number of frames in the trajectory and ![](https://render.githubusercontent.com/render/math?math=E_t) is the value the energy took at time ![](https://render.githubusercontent.com/render/math?math=t).
+In this expression N is the number of frames in the trajectory and E_t is the value the energy took at time t.
 
 

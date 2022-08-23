@@ -10,7 +10,9 @@ except:
 import unittest
 from main import *
 
+mye = np.loadtxt("energies")[:,1]
+
 class UnitTests(unittest.TestCase) :
     def test_mean(self) : 
-        myeng = sum( eng ) / len( eng )
+        myeng = sum( mye ) / len( eng )
         assert(check_vars("average",myeng))
