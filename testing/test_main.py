@@ -13,4 +13,4 @@ from main import *
 class UnitTests(unittest.TestCase) :
     def test_mean(self) : 
         myeng = sum( eng ) / len( eng )
-        assert(check_vars("average",myA))
+        assert(check_vars("average",myeng))
